@@ -10,7 +10,7 @@ if d < 0:
     print("Its Imposible")
 if d > 0:
     d2 = math.sqrt(d)
-    x1 = ((-b) + (d2/2*a)
-    x2 = ((-b) - (d2/2*a)
+    x1 = ((-b) + (d2/2*a))
+    x2 = ((-b) - (d2/2*a))
     print("The First X is ",x1," and The Second X is ",x2) 
         
