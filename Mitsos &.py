@@ -1,0 +1,11 @@
+import tkinter
+window = tkinter.Tk()
+window.geometry("700x700")
+window.title("Mitsos")
+lbl = tkinter.Label(window, text= "Iron Maiden: Senjutsu",fg="red", font = ("Metal Lord", 50))
+ent = tkinter.Entry(window)
+btn = tkinter.Button(window, text="GO", bg="red", fg="black")
+lbl.pack()
+ent.pack()
+btn.pack()
+window.mainloop()

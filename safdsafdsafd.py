@@ -1,0 +1,23 @@
+import tkinter
+window = tkinter.Tk()
+window.title("Enter your Credentials, its safe trust me ;)")
+lbl1 = tkinter.Label(window,text="Surname")
+lbl1.pack()
+txt1 = tkinter.Entry(window,width=10)
+txt1.pack()
+lbl2 = tkinter.Label(window,text="Family Name")
+lbl2.pack()
+txt2 = tkinter.Entry(window,width=10)
+txt2.pack()
+lbl3 = tkinter.Label(window,text="Age")
+lbl3.pack()
+txt3 = tkinter.Entry(window,width=10)
+txt3.pack()
+def clicked():
+    a = "You are " + txt1.get() + " " + txt2.get() + " and you are " + txt3.get() + " years old."
+    lbl4 = tkinter.Label(window,text = a)
+    lbl4.configure(text = a)
+    lbl4.pack()
+btn = tkinter.Button(window, text="Click Me", command=clicked)
+btn.pack()
+window.mailoop()
